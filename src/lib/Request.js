@@ -1,6 +1,6 @@
 import axios from "axios"
 
-axios.defaults.baseURL = "http://acecom-harper.herokuapp.com/api"
+axios.defaults.baseURL = "https://acecom-harper.herokuapp.com/api"
 
 const Get = async (route, params = {}) => {
   try {
